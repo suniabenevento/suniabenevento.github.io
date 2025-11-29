@@ -1,0 +1,12 @@
+# Hugo default output
+public/
+resources/
+
+# Hugo lock
+.hugo_build.lock
+
+# OS X
+.DS_Store
+
+# Node
+node_modules/

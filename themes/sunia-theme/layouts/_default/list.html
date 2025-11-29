@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="container py-5">
+    <h2 class="mb-4 text-brand-primary fw-bold border-bottom pb-2 d-inline-block">{{ .Title }}</h2>
+    <div class="list-content mb-5">
+        {{ .Content }}
+    </div>
+    <div class="row g-4">
+        {{ $paginator := .Paginate (.Pages.ByDate.Reverse) 6 }}
+        {{ range $paginator.Pages }}
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm hover-shadow border-start border-brand-primary border-4">
+                <div class="card-body p-4 d-flex flex-column">
+                    <h3 class="card-title h5 fw-bold mb-3"><a href="{{ .Permalink }}"
+                            class="text-decoration-none text-dark stretched-link">{{ .Title }}</a></h3>
+                    {{ if .Date }}
+                    <p class="card-subtitle text-muted small mb-3 text-uppercase fw-bold">{{ .Date.Format "02 Jan 2006"
+                        }}</p>
+                    {{ end }}
+                    <p class="card-text text-muted flex-grow-1">{{ .Summary | truncate 150 }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav aria-label="Page navigation" class="mt-5">
+        <ul class="pagination justify-content-center">
+            {{ if $paginator.HasPrev }}
+            <li class="page-item">
+                <a class="page-link" href="{{ $paginator.Prev.URL }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            {{ end }}
+
+            {{ range $paginator.Pagers }}
+            <li class="page-item {{ if eq . $paginator }}active{{ end }}">
+                <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+            </li>
+            {{ end }}
+
+            {{ if $paginator.HasNext }}
+            <li class="page-item">
+                <a class="page-link" href="{{ $paginator.Next.URL }}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+    {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,6 @@
+languageCode: 'it-IT'
+title: 'SUNIA Benevento'
+theme: 'sunia-theme'
+caches:
+  images:
+    dir: :cacheDir/images
