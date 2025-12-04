@@ -1,9 +1,18 @@
 <header>
     <div class="header-logo-area py-3">
-        <div class="container d-flex justify-content-center justify-content-md-start">
+        <div class="container d-flex justify-content-between align-items-center gap-5">
             <a href="{{ .Site.BaseURL }}" class="navbar-brand">
-                <img src="/images/sunia-logo.png" alt="{{ .Site.Title }}" height="80">
+                <img src="/images/sunia-logo.png" alt="{{ .Site.Title }}" class="img-fluid" height="80">
             </a>
+            <div class="social-icons d-flex align-items-center gap-3">
+                <a href="https://www.facebook.com/suniabenevento/" target="_blank" rel="noopener noreferrer"
+                    class="text-white">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                </a>
+                <a href="mailto:suniabenevento@gmail.com" class="text-white">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </div>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-brand-primary main-nav">
