@@ -14,6 +14,8 @@
     {{ $style := resources.Get "css/style.css" }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="icon" type="image/png" href="/images/sunia-logo-square.jpg">
+    {{ partial "seo.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
 </head>
 
 <body>

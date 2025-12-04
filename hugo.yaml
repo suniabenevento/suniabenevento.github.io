@@ -1,6 +1,13 @@
 languageCode: 'it-IT'
 title: 'SUNIA Benevento'
+baseURL: 'https://suniabenevento.com/'
 theme: 'sunia-theme'
+params:
+  description: "Sito ufficiale del SUNIA (Sindacato Unitario Nazionale Inquilini ed Assegnatari) di Benevento. Informazioni su affitti, edilizia residenziale pubblica e diritti degli inquilini."
+  author: "SUNIA Benevento"
+  images: ["/images/sunia-logo.png"]
+enableRobotsTXT: true
+googleAnalytics: 'G-J0X0HHX4RW'
 caches:
   images:
     dir: :cacheDir/images
