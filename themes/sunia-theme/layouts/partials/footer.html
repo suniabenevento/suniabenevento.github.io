@@ -4,20 +4,20 @@
             <div class="col-md-6">
                 <h5 class="text-uppercase mb-3 fw-bold text-white">Contatti</h5>
                 <div class="contact-info text-secondary">
-                    <p class="mb-2"><i class="fa-solid fa-location-dot me-2"></i> Via F. Iandoli 12, 82100, Benevento
+                    <p class="mb-2"><i class="fa-solid fa-location-dot me-2"></i> {{ .Site.Params.contact.address }}
                     </p>
-                    <p class="mb-2"><i class="fa-solid fa-mobile-alt me-2"></i> Cell: 3381609110 – 3336784177</p>
-                    <p class="mb-2"><i class="fa-solid fa-phone me-2"></i> Tel-Fax: 0824/355141</p>
-                    <p class="mb-2"><i class="fa-solid fa-envelope me-2"></i> Email: suniabenevento@gmail.com</p>
+                    <p class="mb-2"><i class="fa-solid fa-mobile-alt me-2"></i> Cell: {{ .Site.Params.contact.mobile1 }}
+                        – {{ .Site.Params.contact.mobile2 }}</p>
+                    <p class="mb-2"><i class="fa-solid fa-phone me-2"></i> Tel-Fax: {{ .Site.Params.contact.phone }}</p>
+                    <p class="mb-2"><i class="fa-solid fa-envelope me-2"></i> Email: {{ .Site.Params.contact.email }}
+                    </p>
                 </div>
                 <p class="text-secondary">&copy; {{ now.Year }} {{ .Site.Title }}. Tutti i diritti riservati.</p>
             </div>
             <div class="col-md-6">
                 <div class="map-container rounded overflow-hidden shadow-sm" style="height: 300px;">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.5011764620726!2d14.777791315318323!3d41.123584020270215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133a3a7435285247%3A0xc8c8a038ec61137d!2sSindacato+Unitario+Inquilini+Assegnatari!5e0!3m2!1sit!2sit!4v1505162268550"
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="{{ .Site.Params.map.embedUrl }}" width="100%" height="100%" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

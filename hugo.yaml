@@ -6,8 +6,86 @@ params:
   description: "Sito ufficiale del SUNIA (Sindacato Unitario Nazionale Inquilini ed Assegnatari) di Benevento. Informazioni su affitti, edilizia residenziale pubblica e diritti degli inquilini."
   author: "SUNIA Benevento"
   images: ["/images/sunia-logo.png"]
+  contact:
+    address: "Via F. Iandoli 12, 82100, Benevento"
+    phone: "0824/355141"
+    mobile1: "338 1609110"
+    mobile2: "333 6784177"
+    email: "suniabenevento@gmail.com"
+    whatsapp: "393381609110"
+  social:
+    facebook: "https://www.facebook.com/suniabenevento/"
+  map:
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.536053787959!2d14.779096076904791!3d41.12282247133453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133a3a7435285247%3A0xc8c8a038ec61137d!2sSindacato%20Unitario%20Inquilini%20Assegnatari!5e0!3m2!1sit!2suk!4v1764887068318!5m2!1sit!2suk"
+  openingHours:
+    - day: "Lun"
+      time: "10:00 - 12:00"
+    - day: "Mar"
+      time: "17:00 - 19:00"
+    - day: "Mer"
+      time: "17:00 - 19:00"
+    - day: "Gio"
+      time: "Su appuntamento"
+    - day: "Ven"
+      time: "10:00 - 12:00"
+    - day: "Sab"
+      time: "Chiusi"
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+      params:
+        icon: fa-solid fa-house
+    - identifier: notizie
+      name: Notizie
+      url: /notizie/
+      weight: 2
+      params:
+        icon: fa-regular fa-newspaper
+    - identifier: contratto-sicuro
+      name: Contratto sicuro
+      url: /contratto-sicuro/
+      weight: 3
+      params:
+        icon: fa-regular fa-file-alt
+    - identifier: bandi
+      name: Bandi e graduatorie
+      url: /bandi-e-graduatorie/
+      weight: 4
+      params:
+        icon: fa-solid fa-list
+    - identifier: convenzioni
+      name: Convenzioni
+      url: /convenzioni/
+      weight: 5
+      params:
+        icon: fa-regular fa-handshake
+    - identifier: edilizia
+      name: Edilizia
+      url: /edilizia/
+      weight: 6
+      params:
+        icon: fa-solid fa-building
+    - identifier: servizi
+      name: Servizi
+      url: /servizi/
+      weight: 7
+      params:
+        icon: fa-solid fa-user-circle
+    - identifier: contatti
+      name: Contatti
+      url: /contatti/
+      weight: 8
+      params:
+        icon: fa-solid fa-address-book
 enableRobotsTXT: true
 googleAnalytics: 'G-J0X0HHX4RW'
 caches:
   images:
     dir: :cacheDir/images
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,15 @@
+<div class="opening-hours">
+    <h4><i class="fa-solid fa-clock me-2"></i>Orari di apertura</h4>
+    <div class="row g-3 justify-content-center mt-3">
+        {{ range .Site.Params.openingHours }}
+        <div class="col-6 col-md-4 col-lg-2">
+            <div class="card h-100 border-0 shadow-sm border-bottom border-brand-primary border-3 text-center py-3">
+                <div class="card-body p-2">
+                    <span class="d-block fw-bold text-brand-primary mb-1">{{ .day }}</span>
+                    <span class="small text-muted fw-bold">{{ .time }}</span>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

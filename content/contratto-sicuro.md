@@ -4,11 +4,15 @@ draft: false
 description: "Registra il tuo contratto di affitto con il SUNIA Benevento. Assistenza per contratti a canone concordato, cedolare secca e agevolazioni fiscali."
 ---
 
-Registrare il contratto di locazione conviene e dà vantaggi al proprietario-locatore e all’inquilino-conduttore.
+**Affitta senza stress e risparmia sulle tasse.**
 
-Registra il tuo contratto di locazione con Cedolare Secca: vieni al Sunia di Benevento per compilare e sottoscrivere il tuo nuovo contratto di locazione e/o per passare al regime agevolato.
+Registrare il contratto di locazione non è solo un obbligo, ma una grande opportunità per proprietari e inquilini.
+Con il servizio **Contratto Sicuro** del SUNIA, ci occupiamo di tutto noi: dalla stesura alla registrazione telematica.
 
-Niente file, direttamente in sede ti verrà consegnato il contratto, registrato a nostra cura presso l’agenzia delle entrate.
+**Perché scegliere noi?**
+*   **Zero File**: Non devi andare all'Agenzia delle Entrate. Facciamo tutto noi telematicamente.
+*   **Sicurezza**: I nostri contratti sono garantiti e conformi alle normative vigenti.
+*   **Risparmio**: Ti guidiamo verso la scelta fiscale più vantaggiosa (Cedolare Secca, Canone Concordato).
 
 ### Contratto concordato
 
@@ -32,3 +36,14 @@ I contratti liberi hanno lunga durata (4+4+2 anni) e sono lasciati alla libera c
 - Cedolare secca al 21%
 - Zero spese di registrazione
 - Zero bolli
+
+---
+
+### <i class="fa-solid fa-calendar-check me-2"></i>Prenota il tuo appuntamento
+
+Non rischiare con il "fai da te". Affidati agli esperti del SUNIA.
+
+**Vieni a trovarci in sede:**
+Via F. Iandoli 12, 82100, Benevento
+
+<a href="mailto:suniabenevento@gmail.com" class="btn btn-primary btn-lg mt-3"><i class="fas fa-envelope me-2"></i>Contattaci per un appuntamento</a>

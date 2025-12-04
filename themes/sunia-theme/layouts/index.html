@@ -39,10 +39,11 @@
     </section>
 
     <section class="hours-section py-5">
-        <div class="container">
-            <h3 class="text-center text-brand-primary mb-5 fw-bold">I nostri orari</h3>
+        <div class="container alert alert-light">
+            <h3 class="text-center text-brand-primary mb-5 fw-bold"><i class="fa-solid fa-clock me-2"></i>Orari di
+                apertura</h3>
             <div class="row g-3 justify-content-center">
-                {{ range .Params.opening_hours }}
+                {{ range .Site.Params.openingHours }}
                 <div class="col-6 col-md-4 col-lg-2">
                     <div
                         class="card h-100 border-0 shadow-sm border-bottom border-brand-primary border-3 text-center py-3">

@@ -1,6 +1,6 @@
 ---
 title: "Informati"
-draft: false
+draft: true
 ---
 
 Guide, vademecum e materiale informativo per inquilini e proprietari.
