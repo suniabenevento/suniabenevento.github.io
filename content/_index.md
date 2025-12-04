@@ -1,6 +1,7 @@
 ---
 title: "Home"
 draft: false
+description: "Il SUNIA di Benevento tutela inquilini e assegnatari. Scopri i nostri servizi: contratti di affitto, bandi ERP, agevolazioni fiscali e assistenza legale."
 hero_text: "Il Sunia è la principale organizzazione degli inquilini privati e degli assegnatari di edilizia pubblica: ha per scopo il riconoscimento del diritto alla casa per ogni cittadino a condizioni compatibili con le esigenze delle famiglie per favorire la mobilità e la soluzione del bisogno alloggiativo."
 campaign:
   title: "Campagna \"Contratto sicuro\""

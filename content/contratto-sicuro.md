@@ -1,6 +1,7 @@
 ---
 title: "Contratto Sicuro"
 draft: false
+description: "Registra il tuo contratto di affitto con il SUNIA Benevento. Assistenza per contratti a canone concordato, cedolare secca e agevolazioni fiscali."
 ---
 
 Registrare il contratto di locazione conviene e dà vantaggi al proprietario-locatore e all’inquilino-conduttore.

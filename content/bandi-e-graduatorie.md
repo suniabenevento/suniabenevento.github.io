@@ -1,6 +1,7 @@
 ---
 title: "Bandi e Graduatorie"
 draft: false
+description: "Consulta i bandi e le graduatorie per l'assegnazione di alloggi ERP (case popolari) e contributi affitto a Benevento e provincia."
 ---
 
 In questa sezione sono disponibili i bandi di assegnazione alloggi ERP e le relative graduatorie.
