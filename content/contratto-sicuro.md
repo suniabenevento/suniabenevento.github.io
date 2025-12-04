@@ -12,7 +12,9 @@ Con il servizio **Contratto Sicuro** del SUNIA, ci occupiamo di tutto noi: dalla
 **Perché scegliere noi?**
 *   **Zero File**: Non devi andare all'Agenzia delle Entrate. Facciamo tutto noi telematicamente.
 *   **Sicurezza**: I nostri contratti sono garantiti e conformi alle normative vigenti.
-*   **Risparmio**: Ti guidiamo verso la scelta fiscale più vantaggiosa (Cedolare Secca, Canone Concordato).
+*   **Risparmio**: Ti guidiamo verso la scelta fiscale più vantaggiosa.
+
+---
 
 ### Contratto concordato
 
@@ -29,6 +31,8 @@ I contratti concordati sono stipulati in base agli accordi tra le organizzazioni
 - Zero spese di registrazione
 - Zero bolli
 
+---
+
 ### Contratto libero
 
 I contratti liberi hanno lunga durata (4+4+2 anni) e sono lasciati alla libera contrattazione tra le parti.
@@ -39,11 +43,8 @@ I contratti liberi hanno lunga durata (4+4+2 anni) e sono lasciati alla libera c
 
 ---
 
-### <i class="fa-solid fa-calendar-check me-2"></i>Prenota il tuo appuntamento
-
-Non rischiare con il "fai da te". Affidati agli esperti del SUNIA.
-
-**Vieni a trovarci in sede:**
-Via F. Iandoli 12, 82100, Benevento
-
-<a href="mailto:suniabenevento@gmail.com" class="btn btn-primary btn-lg mt-3"><i class="fas fa-envelope me-2"></i>Contattaci per un appuntamento</a>
+<div class="text-center bg-light p-4 rounded-10 my-5">
+    <h3><i class="fa-solid fa-calendar-check me-2"></i>Prenota il tuo appuntamento</h3>
+    <p>Non rischiare con il "fai da te". Affidati agli esperti del SUNIA.</p>
+    {{< button relref="/contatti" class="btn-primary" >}}Contattaci{{< /button >}}
+</div>

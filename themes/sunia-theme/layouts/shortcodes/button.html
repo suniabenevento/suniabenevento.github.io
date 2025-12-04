@@ -1,0 +1,11 @@
+{{ $relref := .Get "relref" }}
+{{ $url := .Get "url" }}
+{{ $class := .Get "class" | default "btn-primary" }}
+{{ $href := "" }}
+{{ if $relref }}
+{{ $href = relref . $relref }}
+{{ else if $url }}
+{{ $href = $url }}
+{{ end }}
+<a href="{{ $href }}" class="btn {{ $class }} btn-lg mt-3" {{ if $url }} target="_blank" rel="noopener noreferrer" {{
+    end }}>{{ .Inner }}</a>

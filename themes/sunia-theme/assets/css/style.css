@@ -32,6 +32,31 @@
     border-color: var(--brand-primary) !important;
 }
 
+/* Override Bootstrap's text-primary */
+.text-primary {
+    color: var(--brand-primary) !important;
+}
+
+/* Override Bootstrap's bg-primary */
+.bg-primary {
+    background-color: var(--brand-primary) !important;
+}
+
+/* Override Bootstrap's btn-primary */
+.btn-primary {
+    background-color: var(--brand-primary) !important;
+    border-color: var(--brand-primary) !important;
+    color: white !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--brand-primary-dark) !important;
+    border-color: var(--brand-primary-dark) !important;
+    color: white !important;
+}
+
 .btn-brand-primary {
     background-color: var(--brand-primary);
     border-color: var(--brand-primary);
